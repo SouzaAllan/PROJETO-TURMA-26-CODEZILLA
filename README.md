@@ -5,7 +5,7 @@
 
 # Integrantes 
 
-* Allan Tavares de Souza Feitosa
+* [Allan Tavares de Souza Feitosa](https://github.com/SouzaAllan)
 * Gabriel de Lima Sovrani
 * Gabriel Gomes Mares
 * Lucas Alves
