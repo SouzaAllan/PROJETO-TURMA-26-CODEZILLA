@@ -12,11 +12,11 @@
 * Maria Clara Souza Genezini
 * Marcelo Monteiro Alves Filho
 * Mateus Machado Freire
-* Matheus Mattos
+* [Matheus Mattos](https://github.com/omatheusmattos)
 * Nicky Oishi Kim
 * Pablo Henrique da Silva Nunes
 * Rony Alves Dias
-* Tiago Borges Silva
+* [Tiago Borges Silva](https://github.com/TiagoBSilvaUNI9)
 
 # Instrutor
 
@@ -27,6 +27,3 @@
 # Base do código:
 
 * https://github.com/koolkishan/netflix-clone-react-node
-
-
-
