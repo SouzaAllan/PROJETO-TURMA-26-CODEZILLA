@@ -12,7 +12,7 @@
 * Maria Clara Souza Genezini
 * Marcelo Monteiro Alves Filho
 * Mateus Machado Freire
-* Matheus Mattos
+* @omatheusmattos
 * Nicky Oishi Kim
 * Pablo Henrique da Silva Nunes
 * Rony Alves Dias
