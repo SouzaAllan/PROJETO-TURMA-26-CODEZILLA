@@ -16,7 +16,7 @@
 * [Nicky Oishi Kim](https://github.com/nickyokim)
 * [Pablo Henrique da Silva Nunes](https://github.com/Pxbl1)
 * [Rony Alves Dias](https://github.com/)
-* [Tiago Borges Silva](https://github.com/TiagoBSilvaUNI9)
+* [Tiago Borges Silva](https://github.com/TiagoBSilvaUNI)
 
 # Instrutor
 
