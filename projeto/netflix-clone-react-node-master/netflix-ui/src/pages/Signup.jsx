@@ -36,16 +36,16 @@ function Signup() {
         <Header login />
         <div className="body flex column a-center j-center">
           <div className="text flex column">
-            <h1>Unlimited movies, TV shows and more.</h1>
-            <h4>Watch anywhere. Cancel anytime.</h4>
+            <h1>Resumos limitados de séries e filmes!</h1>
+            <h4>Leia  de onde estiver. Cancele a qualquer momento.</h4>
             <h6>
-              Ready to watch? Enter your email to create or restart membership.
+            Pronto para ler? Insira seu email abaixo e vamos lá!.
             </h6>
           </div>
           <div className="form">
             <input
               type="email"
-              placeholder="Email address"
+              placeholder="Insira seu email"
               onChange={(e) =>
                 setFormValues({
                   ...formValues,
@@ -58,7 +58,7 @@ function Signup() {
             {showPassword && (
               <input
                 type="password"
-                placeholder="Password"
+                placeholder="Escolha sua senha"
                 onChange={(e) =>
                   setFormValues({
                     ...formValues,
@@ -70,7 +70,7 @@ function Signup() {
               />
             )}
             {!showPassword && (
-              <button onClick={() => setShowPassword(true)}>Get Started</button>
+              <button onClick={() => setShowPassword(true)}>Vamos lá! ></button>
             )}
           </div>
           {showPassword && <button onClick={handleSignIn}>Log In</button>}
@@ -97,6 +97,7 @@ const Container = styled.div`
         gap: 1rem;
         text-align: center;
         font-size: 2rem;
+        font-family: "Gill Sans", sans-serif;
         h1 {
           padding: 0 25rem;
         }
@@ -118,12 +119,13 @@ const Container = styled.div`
         }
         button {
           padding: 0.5rem 1rem;
-          background-color: #e50914;
+          background-color: #D99911;
           border: none;
           cursor: pointer;
           color: white;
           font-weight: bolder;
-          font-size: 1.05rem;
+          font-size: 1.5rem;
+          font-family: monospace;
         }
       }
       button {

@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import logo from "../assets/logo.png";
-import background from "../assets/login.jpg";
 import { useNavigate } from "react-router-dom";
 import BackgroundImage from "../components/BackgroundImage";
 import Header from "../components/Header";
@@ -33,7 +31,7 @@ function Login() {
         <div className="form-container flex column a-center j-center">
           <div className="form flex column a-center j-center">
             <div className="title">
-              <h3>Login</h3>
+              <h3>LOGIN</h3>
             </div>
             <div className="container flex column">
               <input
@@ -44,11 +42,13 @@ function Login() {
               />
               <input
                 type="password"
-                placeholder="Password"
+                placeholder="Senha"
                 onChange={(e) => setPassword(e.target.value)}
                 value={password}
               />
-              <button onClick={handleLogin}>Login to your account</button>
+              <div className="button">
+              <button onClick={handleLogin}>ENTRAR</button>
+              </div>
             </div>
           </div>
         </div>
@@ -58,7 +58,8 @@ function Login() {
 }
 
 const Container = styled.div`
-  position: relative;
+  position: relative;  
+
   .content {
     position: absolute;
     top: 0;
@@ -76,22 +77,38 @@ const Container = styled.div`
         width: 25vw;
         gap: 2rem;
         color: white;
+        border-radius: 0.5rem;
+        .title{
+          width: 15rem;
+          font-family: monospace;
+          border-radius: 0.2rem;
+          font-weight: bolder;
+          font-size: 1.05rem;
+        }
         .container {
-          gap: 2rem;
+          gap: 0.5rem;
           input {
             padding: 0.5rem 1rem;
             width: 15rem;
+            background-color: #333333;
+            border: none;
+            border-radius: 0.2rem;
           }
+          .button{
+          padding: 1rem 0rem;
           button {
             padding: 0.5rem 1rem;
-            background-color: #e50914;
+            width: 15rem;
+            background-color: #D99911;
             border: none;
             cursor: pointer;
             color: white;
             border-radius: 0.2rem;
             font-weight: bolder;
             font-size: 1.05rem;
+            font-family: monospace;
           }
+        }
         }
       }
     }
