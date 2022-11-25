@@ -10,9 +10,9 @@ export default function Navbar({ isScrolled }) {
   const [inputHover, setInputHover] = useState(false);
   const links = [
     { name: "Home", link: "/" },
-    { name: "TV Shows", link: "/tv" },
-    { name: "Movies", link: "/movies" },
-    { name: "My List", link: "/mylist" },
+    { name: "Séries", link: "/tv" },
+    { name: "Filmes", link: "/movies" },
+    { name: "Minha Lista", link: "/mylist" },
   ];
 
   return (

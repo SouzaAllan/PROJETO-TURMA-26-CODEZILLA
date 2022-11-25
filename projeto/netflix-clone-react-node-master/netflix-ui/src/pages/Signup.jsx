@@ -73,7 +73,7 @@ function Signup() {
               <button onClick={() => setShowPassword(true)}>Vamos lá! ></button>
             )}
           </div>
-          {showPassword && <button onClick={handleSignIn}>Log In</button>}
+          {showPassword && <button onClick={handleSignIn}>LOGIN</button>}
         </div>
       </div>
     </Container>
@@ -130,7 +130,7 @@ const Container = styled.div`
       }
       button {
         padding: 0.5rem 1rem;
-        background-color: #e50914;
+        background-color: #D99911;
         border: none;
         cursor: pointer;
         color: white;

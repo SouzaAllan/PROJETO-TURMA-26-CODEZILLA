@@ -53,8 +53,8 @@ function TVShows() {
           </>
         ) : (
           <h1 className="not-available">
-            No TV Shows avaialble for the selected genre. Please select a
-            different genre.
+            Sem títulos disponiveis nesse gênero. Por favor,
+            selecione um diferente.
           </h1>
         )}
       </div>
